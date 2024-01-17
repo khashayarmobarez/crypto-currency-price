@@ -31,9 +31,9 @@ input {
 }
 
 .coinsContainer {
- background-color:#e8e5e5;
+ background-color:#DDE6ED;
  align-items: center;
- padding-top: 5px;
+ padding: 8px 0;
  width: 45rem;
  display: flex;
  flex-direction: column;
