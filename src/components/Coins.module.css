@@ -1,0 +1,46 @@
+.coin {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #DDE6ED;
+    width: 45rem;
+    height: 5rem;
+    border-bottom: solid 1px black;
+    color: #27374D;
+}
+
+.coin img {
+    width: 2rem;
+    margin:0 0.5rem 0 2rem;
+}
+
+.name {
+    margin-right: 5%;
+}
+
+.symbol {
+    margin-right: 4%;
+}
+
+.currentPrice {
+    margin-right: 5%;
+}
+
+.Change24hGreen,
+.Change24hRed {
+    margin-right: 5%;
+    font-weight: 600;
+}
+
+.Change24hGreen {
+    color: green;
+}
+
+.Change24hRed {
+    color: red;
+}
+
+
+.marketCap {
+    margin-right: 2rem;
+}
