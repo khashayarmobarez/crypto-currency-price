@@ -1,5 +1,5 @@
 {
-  "name": "my-app",
+  "name": "crypto-price",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,11 +13,15 @@
     "react-spinners": "^0.13.8",
     "web-vitals": "^2.1.4"
   },
+  "homepage": "https://khashayarmobarez.github.io/crypto-currency-price",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "postdeploy": "rm -rf build"
   },
   "eslintConfig": {
     "extends": [
